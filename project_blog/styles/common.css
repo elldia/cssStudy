@@ -1,0 +1,15 @@
+/* 공통 header, main, footer css */
+/* header */
+#all {display:flex; flex-flow:row nowrap; justify-content:space-between;}
+#all header {height:100vh;background:#fffcef; width:200px; padding:40px 25px; order:2; display:flex; flex-flow:column wrap;}
+#all header h1 {}
+#all header h1 a {}
+#all header h1 a img {width:70px;}
+#all header a {line-height:2; font-size:1.2rem;font-weight:600; color:#ff935e;}
+#all header a:hover {color:#ff6112;}
+/* main */
+#all #wrap {order:1; width:calc(100% - 200px);}
+#all #wrap main {text-align:center;}
+#all #wrap main h1 {font-size:3rem; padding-top:50px; color:#ff935e;}
+/* footer */
+#all #wrap footer {border-top:1px dotted #aaa; width:100%; height:100px; margin-top:50px; padding:20px 0; line-height:2; text-align:center;}

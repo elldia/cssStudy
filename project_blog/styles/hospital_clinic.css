@@ -1,0 +1,18 @@
+/* hospital_clinic.html(진료 병원) 전용css */
+main {}
+main h1 {}
+main h2 {}
+main #hospital {
+    background-color:#f1f1f1;
+    width:85%; margin:50px auto 0;
+}
+main #hospital thead {border-bottom:2px solid #222;}
+main #hospital thead tr {}
+main #hospital thead tr th {padding:15px;}
+main #hospital thead tr th:nth-child(1) {width:80px;}
+main #hospital thead tr th:nth-child(3) {width:200px;}
+main #hospital thead tr th:nth-child(4) {width:150px;}
+main #hospital tbody {background-color:#fff;}
+main #hospital tbody tr {}
+main #hospital tbody tr th {}
+main #hospital tbody tr td {padding:20px;}
