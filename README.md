@@ -77,3 +77,10 @@
 4. lnb 서브메뉴가 원래 가지던 `display` 속성을 적용한다.(아래 5,6중 선택)
 5. lnb가 `display:block` 인 상태였다면 `block` 값 되돌리기
 6. lnb가 `display:flex` 인 상태였다면 `flex` 값 되돌리기
+----
+# position:sticky
+* 화면이 100vh 이상으로 스크롤이 생길 경우 -> 스크롤 했을 때 상단에 붙어있는 header를 만들 경우 사용하는 속성
+* sticky(끈적거리다)
+* `position:sticky` 속성을 넣고 어떤 좌표부터 붙어있을 지 `left, right, top, bottom` 중 1가지 속성을 적용한다.
+* `header`의 세로크기가 `height:100px`일 경우 `100px` 그대로 상단에 붙어있고 싶다면 `position:sticky; top:0`
+* `header`의 세로크기가 `height:100px`일 경우 내비게이션의 `height:50px`인데 내비게이션부터 붙어있게 하고 싶다면 `position:sticky; top:-50px`로 입력한다.
