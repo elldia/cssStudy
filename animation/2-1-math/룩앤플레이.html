@@ -68,8 +68,25 @@
         }
         main .category a.active {background:#26bad7; color:#fff;}
 
+        main #visual #deco .obj1 {animation:rotate 10s linear alternate infinite;}
+        main #visual #deco .obj3,
+        main #visual #deco .obj6 {animation:rotate 2s linear alternate infinite;}
+        main #visual #deco .obj5,
+        main #visual #deco .obj8 {animation:rotate 2s linear alternate-reverse infinite;}
+        main #visual #deco .obj2,
+        main #visual #deco .obj4,
+        main #visual #deco .obj7,
+        main #visual #deco .obj9 {animation:scale 0.8s linear alternate infinite;}
         /* 애니메이션 */
-
+        /* 36(정방향) 58(역방향) */
+        @keyframes rotate {
+            0% {transform:rotate(0)}
+            100% {transform:rotate(20deg)}
+        }
+        @keyframes scale {
+            0% {transform:scale(1)}
+            100% {transform:scale(1.2)}
+        }
     </style>
 </head>
 <body>
